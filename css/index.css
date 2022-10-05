@@ -8,7 +8,7 @@
     align-items: center;
     text-align: center;
     justify-content: left;
-    background-color: rgba(0, 68, 255, 0.651);
+    background: linear-gradient(5deg, rgb(3, 62, 255), rgb(255, 255, 255));
 }
 
 .barra-sup h3{
@@ -35,6 +35,15 @@
     margin-left: 450px;
     border-color:rgb(0, 0, 0);
     border-radius: 10px;
-    background-color: rgba(0, 68, 255, 0.651);
-    color:white;
+    background: linear-gradient(5deg, rgb(3, 62, 255), rgb(255, 255, 255));    
+    color:black;
+}
+
+.tipoUsuario input[type="submit"]{
+    width: 95px;
+    height: 35px;
+    border-radius:35px;
+    border-style: solid;
+    background: linear-gradient(5deg, rgb(3, 62, 255), rgb(255, 255, 255));
+    color:black;
 }

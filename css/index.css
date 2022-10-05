@@ -4,6 +4,7 @@
 }
 
 .barra-sup {
+    position: relative;
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
     border: 1px black solid;

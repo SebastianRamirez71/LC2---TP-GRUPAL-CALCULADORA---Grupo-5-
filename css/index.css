@@ -11,7 +11,7 @@
     align-items: center;
     text-align: center;
     justify-content: left;
-    background: linear-gradient(55deg, #122b7e, blue);
+    background: linear-gradient(55deg, #122b7e, rgb(55, 55, 110));
 }
 
 .barra-sup h3{
@@ -37,7 +37,7 @@
     margin-right: 450px;
     margin-left: 450px;
     border-radius: 10px;
-    background: linear-gradient(55deg, #122b7e, blue);    
+    background: linear-gradient(55deg, #122b7e, rgb(55, 55, 110));   
     color:white;
 }
 
@@ -53,6 +53,6 @@
     height: 35px;
     border-radius:35px;
     border: 1px black solid;
-    background: linear-gradient(55deg, #122b7e, blue);
+    background: linear-gradient(55deg, #122b7e, rgb(55, 55, 110));
     color:white;
 }

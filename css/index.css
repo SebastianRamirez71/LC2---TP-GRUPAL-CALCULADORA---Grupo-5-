@@ -25,7 +25,14 @@
     width: 85px; 
     height: 46px;
 }
-
+.menu{
+    box-shadow: 2px 5px 10px #122b7e;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 20px;
+    position: absolute;
+    border-radius: 25px;
+}
 .tipoUsuario, .zonaDom, .kWh{
     align-items: center;
     text-align: center;
@@ -34,8 +41,8 @@
 
 .tipoUsuario h3{
     border: 1px black solid;
-    margin-right: 450px;
-    margin-left: 450px;
+    margin-right: 250px;
+    margin-left: 250px;
     border-radius: 10px;
     background: linear-gradient(55deg, #122b7e, rgb(55, 55, 110));   
     color:white;
@@ -48,6 +55,7 @@
     width: 125px;
 }
 
+
 .tipoUsuario input[type="submit"]{
     width: 95px;
     height: 35px;
@@ -55,4 +63,5 @@
     border: 1px black solid;
     background: linear-gradient(55deg, #122b7e, rgb(55, 55, 110));
     color:white;
+    margin-bottom: 20px;
 }

@@ -3,7 +3,38 @@
     /* borrar esto */
 }
 
+.barra-sup {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: left;
+    background-color: rgba(0, 68, 255, 0.651);
+}
+
+.barra-sup h3{
+    margin-left: 55px;
+    color:white;
+}
+
+.barra-sup img{
+    margin-right: 25px;
+    margin-left: 35px;
+    width: 65px; 
+    height: 46px;
+}
+
 .tipoUsuario, .zonaDom, .kWh{
     align-items: center;
     text-align: center;
+    place-items: center;
+}
+
+.tipoUsuario h3{
+    border: 2px solid;
+    margin-right: 450px;
+    margin-left: 450px;
+    border-color:rgb(0, 0, 0);
+    border-radius: 10px;
+    background-color: rgba(0, 68, 255, 0.651);
+    color:white;
 }

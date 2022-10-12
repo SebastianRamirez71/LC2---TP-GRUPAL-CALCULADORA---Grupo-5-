@@ -5,48 +5,48 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Calculadora de Costo de Energía eléctrica</title>
-    <script  src="index.js" defer>
-    </script>
+    <script src="./js/objetoConversor.js" defer></script>
+    <script src="./js/variables.js" defer></script>
+    <script src="./js/app.js" defer></script>
+    <script src="./js/index.js" defer></script>
 </head>
+
+
 
 <body>
     <nav class="barra-sup">
-        <img src="/img/logo-epe-empresa.png">
+        <img src="./img/logo-epe-empresa.png">
         <span>
             <h3>EPE - Calculadora de Costo de Energía Eléctrica</h3>
         </span>
     </nav>
-    
+
     <div class="menu">
-        <form class="tipoUsuario">
+
+        <div class="tipoUsuario">
+            
             <h3>Tipo de usuario</h3>
-            <input type="radio" name="usuario" value="Residencial"  id="residencial" > Residencial (IVA 21%) <br>
-            <input type="radio" name="usuario" value="Industrial" id="industrial" > Industrial (IVA 27%)<br>
-
+                <select id="tipoUsu"></select>
+            
             <h3>Zona del domicilio</h3>
-            <select name="zonaDom" id="zonaDom">
-                <option value="select-zona">Seleccionar zona</option>
-                <option value="centro" id="centro">Distrito centro</option>
-                <option value="sur">Distrito sur</option>
-                <option value="oeste">Distrito Oeste</option>
-                <option value="norte">Distrito Norte</option>
-            </select>
-
-
+                <select id="zonaDom"></select>
+            
             <h3>Cantidad de kWh del mes</h3>
+            
             <input type="number" name="kWhMes" id="kWhMes">
+            
             <br> <br>
+                
+            <button id="btnConvertir" class="botoncito">CONVERTIR</button>
+                
+            <div id="resultado" class="resultadoFinal"></div>
             
-            <input type="submit" onclick="validar()" value="Enviar"/>
-            
-        </form>
-        <h3 id="mostrarDatos"></h3>
+            <br>
+        </div>
     </div>
 
 </body>
-
-
 
 </html>

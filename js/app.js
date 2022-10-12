@@ -29,8 +29,11 @@ const convertir = ()=>{
     u = parseFloat(tipoUsu.value)
     z = parseFloat(zonaDomicilio.value)
     valorConver = conv.calcularConversion(kwh, z, u, cs)
-    resultado.innerText = `$ ${valorConver}`
-    
+    if(valorConver == "NaN"){
+        resultado.innerHTML = `<div>$0</div>`
+    }else{
+    resultado.innerHTML = `<div>$ ${valorConver}</div>`
+    }
 }
 
 convertir()

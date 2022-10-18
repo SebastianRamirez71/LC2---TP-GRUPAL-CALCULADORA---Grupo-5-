@@ -60,6 +60,13 @@
     width: 125px;
 }
 
+.tipoUsuario select{
+    text-align: center;
+    border-radius: 20px 10px 20px 10px;
+    height: 25px;
+    width: 125px;
+    border-color:black;
+}
 
 .botoncito{
     width: 95px;

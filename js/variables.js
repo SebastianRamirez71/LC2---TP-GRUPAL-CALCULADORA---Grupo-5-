@@ -6,6 +6,9 @@ const valores =     [{"distrito": 'Centro', "precio":5.80},
 const zona = [{"zona": 'Residencial', "precio": 0.21},
                 {"zona": 'Industrial', "precio": 0.27}]
 
+
+
+
 const costoServicio = 102
 
 const zonaDomicilio = document.querySelector ("#zonaDom")

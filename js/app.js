@@ -28,12 +28,16 @@ const convertir = ()=>{
     kwh = parseFloat(kWhMes.value)
     u = parseFloat(tipoUsu.value)
     z = parseFloat(zonaDomicilio.value)
+
     valorConver = conv.calcularConversion(kwh, z, u, cs)
+    
+
     if(valorConver == "NaN"){
         resultado.innerHTML = `<div>${hidden}</div>`
     }else{
     resultado.innerHTML = `<div class="resultadoFinal">$ ${valorConver}</div>`
     }
+
 }
 
 convertir()

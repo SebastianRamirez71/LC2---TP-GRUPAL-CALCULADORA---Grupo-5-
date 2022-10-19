@@ -1,4 +1,4 @@
-*{
+* {
     font-family: Arial, Helvetica, sans-serif;
     /* borrar esto */
 }
@@ -16,18 +16,19 @@
     margin-bottom: 30px;
 }
 
-.barra-sup h3{
+.barra-sup h3 {
     margin-left: 55px;
-    color:white;
+    color: white;
 }
 
-.barra-sup img{
+.barra-sup img {
     margin-right: 25px;
     margin-left: 35px;
-    width: 85px; 
+    width: 85px;
     height: 46px;
 }
-.menu{
+
+.menu {
 
     box-shadow: 2px 5px 10px #122b7e;
     margin-left: 300px;
@@ -39,62 +40,67 @@
     align-items: center;
     text-align: center;
     justify-content: center;
-    transition: all 0.25s; 
+    transition: all 0.25s;
     background-color: #d7dce0
 }
-.menu:hover{
-    transform: translateY(-15px); /* Esta funcion permite cambiar la posicion del elemento*/
+
+.menu:hover {
+    transform: translateY(-15px);
+    /* Esta funcion permite cambiar la posicion del elemento*/
     box-shadow: 0 12px 16px rgba(0, 0, 0, 2);
 }
-#tipoUsu, #zonaDom, #kWh{
+
+#tipoUsu,
+#zonaDom,
+#kWh {
     text-align: center;
     border-radius: 20px 10px 20px 10px;
     height: 25px;
     width: 125px;
 }
 
-.tipoUsuario h3{
+.tipoUsuario h3 {
     border: 1px black solid;
     margin-right: 260px;
     margin-left: 260px;
     border-radius: 10px;
-    background: linear-gradient(55deg, #122b7e, rgb(55, 55, 110));   
-    color:white;
+    background: linear-gradient(55deg, #122b7e, rgb(55, 55, 110));
+    color: white;
 }
 
-.tipoUsuario input[type="number"]{
+.tipoUsuario input[type="number"] {
     text-align: center;
     border-radius: 20px 10px 20px 10px;
     height: 25px;
     width: 125px;
 }
 
-.tipoUsuario select{
+.tipoUsuario select {
     text-align: center;
     border-radius: 20px 10px 20px 10px;
     height: 25px;
     width: 125px;
-    border-color:black;
+    border-color: black;
 }
 
-.botoncito{
+.botoncito {
     width: 95px;
     height: 35px;
-    border-radius:35px;
+    border-radius: 35px;
     border: 1px black solid;
     background: linear-gradient(55deg, #122b7e, rgb(55, 55, 110));
-    color:white;
+    color: white;
     margin-bottom: 20px;
 }
 
-.resultadoFinal{
+.resultadoFinal {
     align-items: center;
     text-align: center;
     place-items: center;
     margin-left: 325px;
     border: green solid;
     background-color: green;
-    color:white;
+    color: white;
     width: 95px;
     border-radius: 25px;
 }

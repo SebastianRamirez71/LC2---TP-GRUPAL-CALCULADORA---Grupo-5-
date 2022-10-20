@@ -31,10 +31,10 @@
 .menu {
 
     box-shadow: 2px 5px 10px #122b7e;
-    margin-left: 300px;
-    margin-right: 300px;
+    margin-left: 450px;
+    margin-right: 450px;
     margin-top: 20px;
-    position: absolute;
+    position: relative;
     border-radius: 25px;
     display: flex;
     align-items: center;
@@ -97,6 +97,7 @@
     align-items: center;
     text-align: center;
     place-items: center;
+    justify-content: center;
     margin-left: 325px;
     border: green solid;
     background-color: green;
@@ -104,3 +105,4 @@
     width: 95px;
     border-radius: 25px;
 }
+
